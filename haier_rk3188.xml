@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="DerFetzer/android_device_haier_rk3188" path="device/haier/rk3188" remote="github" revision="cm-11.0" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="DerFetzer/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <!-- <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="DerFetzer/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" /> -->
 </manifest>
