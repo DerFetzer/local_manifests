@@ -3,4 +3,10 @@
   <project name="DerFetzer/android_device_haier_rk3188" path="device/haier/rk3188" remote="github" revision="cm-11.0" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="DerFetzer/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a9_neon" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="sabermod-4.9-arm-linux-androideabi" />
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="DerFetzer/android_build" path="build" remote="github" revision="cm-11.0" />
 </manifest>
