@@ -5,4 +5,8 @@
   <project name="DerFetzer/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="DerFetzer/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="DerFetzer/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.1" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <project name="DerFetzer/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" />
 </manifest>
