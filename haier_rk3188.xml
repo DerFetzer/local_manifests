@@ -11,4 +11,10 @@
   <project name="DerFetzer/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.1" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <project name="DerFetzer/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-5.1" />
+  <project name="Christopher83/linaro_toolchains_2014" path="prebuilts/gcc/linux-x86/arm/linaro" remote="github" revision="2014.12"/>
+  <project name="DerFetzer/android_kernel_haier_rk3188" path="kernel/haier/rk3188" remote="github" revision="master"/>
+  <remove-project name="CyanogenMod/android_build" />
+  <project path="build" name="DerFetzer/android_build" remote="github" revision="cm-12.1" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 </manifest>
