@@ -17,4 +17,5 @@
   <project path="build" name="DerFetzer/android_build" remote="github" revision="cm-12.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="DerFetzer/rkutils" path="external/rkutils" remote="github" revision="master" />
 </manifest>
